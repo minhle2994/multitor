@@ -68,7 +68,7 @@ function CreateWebProxyProcess() {
         # >>"${_pfd}"
 
         # shellcheck disable=SC2154,SC2129
-        printf "listen-address 127.0.0.1:%d\\n" "$_bk_port_new" \
+        printf "listen-address 0.0.0.0:%d\\n" "$_bk_port_new" \
         >>"${_pfd}"
 
         # shellcheck disable=SC2154,SC2129
