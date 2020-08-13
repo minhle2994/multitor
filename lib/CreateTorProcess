@@ -83,7 +83,7 @@ function CreateTorProcess() {
        --SocksBindAddress 127.0.0.1 \
        --NewCircuitPeriod 180 \
        --MaxCircuitDirtiness 180 \
-       --ExitNodes {us}
+       --ExitNodes {us} \
        --NumEntryGuards 8 \
        --CircuitBuildTimeout 5 \
        --ExitRelay 0 \
