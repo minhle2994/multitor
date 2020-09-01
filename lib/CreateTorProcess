@@ -86,6 +86,7 @@ function CreateTorProcess() {
        --NumEntryGuards 8 \
        --CircuitBuildTimeout 5 \
        --ExitRelay 0 \
+       --ExitNodes {us}} \
        --RefuseUnknownExits 0 \
        --ClientOnly 1 \
        --StrictNodes 1 \
